@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon Élégance - Coiffeur</title>
+    <link rel="stylesheet" href="site test.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-scissors"></i>
+                Salon Élégance
+            </a>
+            <button class="nav-toggle" aria-label="Menu">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#presentation" class="nav-link">Présentation</a></li>
+                <li><a href="#tarifs" class="nav-link">Tarifs</a></li>
+                <li><a href="#reservation" class="nav-link">Réservation</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Salon Élégance</h1>
+            <p>L'art de la coiffure au service de votre beauté</p>
+            <a href="#reservation" class="btn btn-primary">Réserver maintenant</a>
+        </div>
+    </section>
+
+    <!-- Présentation -->
+    <section id="presentation" class="presentation">
+        <div class="container">
+            <h2 class="section-title">Notre Salon</h2>
+            <div class="presentation-grid">
+                <div class="presentation-image">
+                    <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600" alt="Intérieur du salon">
+                </div>
+                <div class="presentation-content">
+                    <h3>Bienvenue chez Salon Élégance</h3>
+                    <p>Depuis plus de 15 ans, notre équipe de coiffeurs passionnés vous accueille dans un cadre chaleureux et moderne au cœur de la ville.</p>
+                    <p>Nous mettons notre expertise à votre service pour sublimer votre chevelure, que ce soit pour une coupe tendance, une coloration éclatante ou un soin revitalisant.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-award"></i>
+                            <span>15 ans d'expérience</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-leaf"></i>
+                            <span>Produits bio</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-users"></i>
+                            <span>Équipe qualifiée</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Équipe -->
+            <h3 class="team-title">Notre Équipe</h3>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=300" alt="Sophie">
+                    <h4>Sophie Martin</h4>
+                    <p>Directrice & Coloriste</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300" alt="Lucas">
+                    <h4>Lucas Dubois</h4>
+                    <p>Coiffeur Styliste</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300" alt="Emma">
+                    <h4>Emma Bernard</h4>
+                    <p>Spécialiste Soins</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tarifs -->
+    <section id="tarifs" class="tarifs">
+        <div class="container">
+            <h2 class="section-title">Nos Tarifs</h2>
+            <div class="tarifs-grid">
+                <!-- Femmes -->
+                <div class="tarif-card">
+                    <div class="tarif-header">
+                        <i class="fas fa-female"></i>
+                        <h3>Femmes</h3>
+                    </div>
+                    <ul class="tarif-list">
+                        <li>
+                            <span class="service">Coupe + Brushing</span>
+                            <span class="price">45€</span>
+                        </li>
+                        <li>
+                            <span class="service">Brushing</span>
+                            <span class="price">25€</span>
+                        </li>
+                        <li>
+                            <span class="service">Coloration</span>
+                            <span class="price">55€</span>
+                        </li>
+                        <li>
+                            <span class="service">Balayage / Mèches</span>
+                            <span class="price">70€</span>
+                        </li>
+                        <li>
+                            <span class="service">Soin profond</span>
+                            <span class="price">20€</span>
+                        </li>
+                        <li>
+                            <span class="service">Chignon / Coiffure événement</span>
+                            <span class="price">60€</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Hommes -->
+                <div class="tarif-card">
+                    <div class="tarif-header">
+                        <i class="fas fa-male"></i>
+                        <h3>Hommes</h3>
+                    </div>
+                    <ul class="tarif-list">
+                        <li>
+                            <span class="service">Coupe</span>
+                            <span class="price">22€</span>
+                        </li>
+                        <li>
+                            <span class="service">Coupe + Barbe</span>
+                            <span class="price">32€</span>
+                        </li>
+                        <li>
+                            <span class="service">Taille de barbe</span>
+                            <span class="price">12€</span>
+                        </li>
+                        <li>
+                            <span class="service">Coloration</span>
+                            <span class="price">30€</span>
+                        </li>
+                        <li>
+                            <span class="service">Rasage traditionnel</span>
+                            <span class="price">18€</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Enfants -->
+                <div class="tarif-card">
+                    <div class="tarif-header">
+                        <i class="fas fa-child"></i>
+                        <h3>Enfants</h3>
+                    </div>
+                    <ul class="tarif-list">
+                        <li>
+                            <span class="service">Coupe fille (-12 ans)</span>
+                            <span class="price">20€</span>
+                        </li>
+                        <li>
+                            <span class="service">Coupe garçon (-12 ans)</span>
+                            <span class="price">15€</span>
+                        </li>
+                        <li>
+                            <span class="service">Coupe ado (12-16 ans)</span>
+                            <span class="price">18€</span>
+                        </li>
+                    </ul>
+                    <div class="tarif-note">
+                        <p><i class="fas fa-info-circle"></i> Tarifs étudiants : -10% sur présentation de la carte</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Réservation -->
+    <section id="reservation" class="reservation">
+        <div class="container">
+            <h2 class="section-title">Réservation</h2>
+            <div class="reservation-container">
+                <div class="reservation-info">
+                    <h3>Prenez rendez-vous</h3>
+                    <p>Réservez votre créneau en quelques clics. Notre équipe vous confirmera votre rendez-vous par email ou téléphone.</p>
+                    <div class="horaires">
+                        <h4><i class="fas fa-clock"></i> Horaires d'ouverture</h4>
+                        <ul>
+                            <li><span>Lundi</span><span>Fermé</span></li>
+                            <li><span>Mardi - Vendredi</span><span>9h00 - 19h00</span></li>
+                            <li><span>Samedi</span><span>9h00 - 18h00</span></li>
+                            <li><span>Dimanche</span><span>Fermé</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <form class="reservation-form" id="reservationForm">
+                    <div class="form-group">
+                        <label for="nom">Nom complet *</label>
+                        <input type="text" id="nom" name="nom" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telephone">Téléphone *</label>
+                            <input type="tel" id="telephone" name="telephone" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date">Date souhaitée *</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="heure">Heure *</label>
+                            <select id="heure" name="heure" required>
+                                <option value="">Choisir une heure</option>
+                                <option value="09:00">09:00</option>
+                                <option value="09:30">09:30</option>
+                                <option value="10:00">10:00</option>
+                                <option value="10:30">10:30</option>
+                                <option value="11:00">11:00</option>
+                                <option value="11:30">11:30</option>
+                                <option value="14:00">14:00</option>
+                                <option value="14:30">14:30</option>
+                                <option value="15:00">15:00</option>
+                                <option value="15:30">15:30</option>
+                                <option value="16:00">16:00</option>
+                                <option value="16:30">16:30</option>
+                                <option value="17:00">17:00</option>
+                                <option value="17:30">17:30</option>
+                                <option value="18:00">18:00</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Prestation souhaitée *</label>
+                        <select id="service" name="service" required>
+                            <option value="">Choisir une prestation</option>
+                            <optgroup label="Femmes">
+                                <option value="coupe-brushing-f">Coupe + Brushing</option>
+                                <option value="brushing">Brushing</option>
+                                <option value="coloration-f">Coloration</option>
+                                <option value="balayage">Balayage / Mèches</option>
+                                <option value="soin">Soin profond</option>
+                                <option value="chignon">Chignon / Coiffure événement</option>
+                            </optgroup>
+                            <optgroup label="Hommes">
+                                <option value="coupe-h">Coupe homme</option>
+                                <option value="coupe-barbe">Coupe + Barbe</option>
+                                <option value="barbe">Taille de barbe</option>
+                                <option value="coloration-h">Coloration homme</option>
+                            </optgroup>
+                            <optgroup label="Enfants">
+                                <option value="coupe-fille">Coupe fille</option>
+                                <option value="coupe-garcon">Coupe garçon</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message (optionnel)</label>
+                        <textarea id="message" name="message" rows="3" placeholder="Précisions sur votre demande..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">
+                        <i class="fas fa-calendar-check"></i> Confirmer la réservation
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Adresse</h4>
+                            <p>123 Rue de la Coiffure<br>75001 Paris</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <p><a href="tel:+33123456789">01 23 45 67 89</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:contact@salon-elegance.fr">contact@salon-elegance.fr</a></p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9916256937595!2d2.292292615509614!3d48.85837007928746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1647856687201!5m2!1sfr!2sfr" 
+                        width="100%" 
+                        height="300" 
+                        style="border:0; border-radius: 10px;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-scissors"></i>
+                    <span>Salon Élégance</span>
+                </div>
+                <p>&copy; 2024 Salon Élégance. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal de confirmation -->
+    <div class="modal" id="confirmationModal">
+        <div class="modal-content">
+            <i class="fas fa-check-circle"></i>
+            <h3>Demande envoyée !</h3>
+            <p>Nous vous contacterons rapidement pour confirmer votre rendez-vous.</p>
+            <button class="btn btn-primary" onclick="closeModal()">Fermer</button>
+        </div>
+    </div>
+
+    <script src="site test.js"></script>
+</body>
+</html>
